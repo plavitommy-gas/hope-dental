@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hope Dental — Parodontologija i estetska medicina | Voždovac, Beograd</title>
+<meta name="description" content="Hope Dental ordinacija dr Nade Bojić na Voždovcu, Beograd. Parodontologija i opšta stomatologija + estetska medicina (botoks, fileri, PRP, skinbooster) — jedan tim, jasan plan, direktno do zakazivanja.">
+<meta name="theme-color" content="#1d1230">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hope Dental — Parodontologija i estetska medicina">
+<meta property="og:description" content="Dve jake vertikale pod jednim krovom: stomatologija i estetska medicina. Voždovac, Beograd.">
+<meta property="og:locale" content="sr_RS">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader" aria-hidden="true">
+  <div class="pre-box">
+    <span class="brand brand--pre">
+      <svg class="brand-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c-3.3 0-4.8 2-4.8 4.5 0 1.7.7 2.6.7 4.4 0 2.6-.5 8.1-1.9 8.1-1 0-1-3.1-1.6-4.9-.3-1-.6-1.5-1-1.5"></path><path d="M12 2.5c3.3 0 4.8 2 4.8 4.5 0 1.7-.7 2.6-.7 4.4 0 2.6.5 8.1 1.9 8.1 1 0 1-3.1 1.6-4.9.3-1 .6-1.5 1-1.5"></path></svg>
+      <span class="brand-tx">Hope<em>Dental</em></span>
+    </span>
+    <span class="pre-rule"></span>
+  </div>
+</div>
+
+<!-- ============ FLOATING GLASS NAV ============ -->
+<header class="nav" id="nav" aria-label="Glavna navigacija">
+  <a class="nav-brand" href="#top" aria-label="Hope Dental, početna">
+    <span class="brand">
+      <svg class="brand-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c-3.3 0-4.8 2-4.8 4.5 0 1.7.7 2.6.7 4.4 0 2.6-.5 8.1-1.9 8.1-1 0-1-3.1-1.6-4.9-.3-1-.6-1.5-1-1.5"></path><path d="M12 2.5c3.3 0 4.8 2 4.8 4.5 0 1.7-.7 2.6-.7 4.4 0 2.6.5 8.1 1.9 8.1 1 0 1-3.1 1.6-4.9.3-1 .6-1.5 1-1.5"></path></svg>
+      <span class="brand-tx">Hope<em>Dental</em></span>
+    </span>
+  </a>
+  <nav class="nav-links">
+    <a href="#usluge">Stomatologija</a>
+    <a href="#estetika">Estetska medicina</a>
+    <a href="#rezultati">Rezultati</a>
+    <a href="#galerija">Ordinacija</a>
+    <a href="#faq">Pitanja</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="btn btn--lila btn--sm nav-cta" href="#kontakt">
+    <span>Zakažite pregled</span>
+    <span class="btn-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+  </a>
+  <button class="burger" id="burger" aria-label="Otvori meni" aria-expanded="false" aria-controls="mobnav">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ============ MOBILE NAV ============ -->
+<div class="mobnav" id="mobnav" aria-label="Mobilni meni">
+  <nav class="mobnav-links">
+    <a href="#usluge" style="--i:0"><span>Stomatologija</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+    <a href="#estetika" style="--i:1"><span>Estetska medicina</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+    <a href="#rezultati" style="--i:2"><span>Rezultati — pre/posle</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+    <a href="#galerija" style="--i:3"><span>Naša ordinacija</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+    <a href="#tim" style="--i:4"><span>Dr Nada Bojić</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+    <a href="#faq" style="--i:5"><span>Česta pitanja</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+    <a href="#kontakt" style="--i:6"><span>Kontakt</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg></a>
+  </nav>
+  <div class="mobnav-foot">
+    <a class="btn btn--lila mobnav-book" href="#kontakt"><span>Zakažite pregled</span></a>
+    <a class="mobnav-call" href="https://instagram.com/dmd.nadabojic" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+      <span>@dmd.nadabojic</span>
+    </a>
+    <div class="mobnav-meta">
+      <span>Bože Jankovića 27 · Voždovac, Beograd</span>
+    </div>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero is-dark" data-hero>
+  <div class="hero-bg" aria-hidden="true">
+    <img src="assets/hero.jpg" alt="" data-parallax fetchpriority="high">
+    <span class="hero-scrim"></span>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="eyebrow" data-reveal>Parodontologija · Estetska medicina · Beograd</span>
+      <h1 class="h1" data-reveal>
+        <span class="h1-top">Zdrave desni i lep osmeh,</span>
+        <em>u sigurnim rukama.</em>
+      </h1>
+      <ul class="hero-list" data-reveal>
+        <li>Specijalista parodontologije i oralne medicine — dr Nada Bojić.</li>
+        <li>Dve jake vertikale pod jednim krovom: stomatologija i estetska medicina.</li>
+        <li>Jasan plan terapije i pristup bez žurbe — od pregleda do rezultata.</li>
+      </ul>
+      <div class="hero-cta" data-reveal>
+        <a class="btn btn--lila" href="#kontakt">
+          <span>Zakažite pregled</span>
+          <span class="btn-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+        </a>
+        <a class="btn-secondary" href="https://instagram.com/dmd.nadabojic" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+          <span>@dmd.nadabojic</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-plate" data-reveal>
+      <div class="plate-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c-3.3 0-4.8 2-4.8 4.5 0 1.7.7 2.6.7 4.4 0 2.6-.5 8.1-1.9 8.1-1 0-1-3.1-1.6-4.9-.3-1-.6-1.5-1-1.5"></path><path d="M12 2.5c3.3 0 4.8 2 4.8 4.5 0 1.7-.7 2.6-.7 4.4 0 2.6.5 8.1 1.9 8.1 1 0 1-3.1 1.6-4.9.3-1 .6-1.5 1-1.5"></path></svg></div>
+      <div class="plate-body">
+        <div class="plate-name">dr Nada Bojić</div>
+        <div class="plate-role">Spec. parodontologije i oralne medicine</div>
+        <div class="plate-rule"></div>
+        <ul class="plate-list">
+          <li>Lečenje desni i parodontopatije</li>
+          <li>Botoks · Fileri · PRP · Skinbooster</li>
+          <li>Jasan plan i pristup bez žurbe</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero-trust" data-reveal>
+      <div class="trust-item"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Bez bola i pritiska</div>
+      <div class="trust-item"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Specijalistički pristup</div>
+      <div class="trust-item"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Dve vertikale, jedan tim</div>
+      <a class="rating" href="#utisci">
+        <span class="stars">★★★★★</span>
+        <span>Utisci pacijenata</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US · sticky-stack cards ============ -->
+<section class="whystack" aria-label="Zašto Hope Dental">
+  <div class="whystack-inner">
+    <div class="ws-head" data-reveal>
+      <span class="eyebrow eyebrow--ink">Zašto baš Hope Dental</span>
+      <h2 class="section-title">Razlozi da nam <em>poverite osmeh.</em></h2>
+    </div>
+    <div class="ws-stack">
+      <article class="ws-card" style="--i:0">
+        <span class="ws-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c2.6 0 4.3 1.7 4.3 4.2 0 2-1 3-1.2 5.3-.2 2.9-.6 8.5-2 8.5-1.1 0-1-3.2-1.6-3.2S10.6 20 9.5 20c-1.4 0-1.8-5.6-2-8.5C7.3 9.2 6.3 8.2 6.3 6.2 6.3 3.7 8 2 10.6 2"></path></svg></span>
+        <div class="ws-body">
+          <span class="ws-idx">01</span>
+          <h3>Specijalista, ne improvizacija.</h3>
+          <p>Dr Nada Bojić je specijalista parodontologije i oralne medicine. Vaše desni i vaš osmeh su u rukama stomatologa koji se baš tim problemom bavi — sa jasnom dijagnozom i planom.</p>
+        </div>
+      </article>
+      <article class="ws-card" style="--i:1">
+        <span class="ws-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2.5 0 4 1.6 4 4 0 1.8-.8 2.6-.8 4.4 0 2.3.9 3.4.9 6.1 0 1.6-.5 3.5-1.6 3.5-1 0-1.1-1.6-1.3-3.2-.2-1.4-.4-2.6-1.2-2.6s-1 1.2-1.2 2.6C10.3 19.4 10.2 21 9.2 21c-1.1 0-1.6-1.9-1.6-3.5 0-2.7.9-3.8.9-6.1C8.5 9.6 7.7 8.8 7.7 7c0-2.4 1.6-4 4.3-4z"></path></svg></span>
+        <div class="ws-body">
+          <span class="ws-idx">02</span>
+          <h3>Dve vertikale pod jednim krovom.</h3>
+          <p>Stomatologija i estetska medicina na jednom mestu. Zdravlje zuba i desni i negovan izgled lica planiraju se zajedno — bez slanja „od vrata do vrata".</p>
+        </div>
+      </article>
+      <article class="ws-card" style="--i:2">
+        <span class="ws-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+        <div class="ws-body">
+          <span class="ws-idx">03</span>
+          <h3>Bez straha, bez pritiska.</h3>
+          <p>Mnogi pacijenti godinama odlažu odlazak stomatologu. Kod nas se radi mirno i bez osude — svaku opciju vam jasno objasnimo pre nego što bilo šta počnemo.</p>
+        </div>
+      </article>
+      <article class="ws-card" style="--i:3">
+        <span class="ws-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></span>
+        <div class="ws-body">
+          <span class="ws-idx">04</span>
+          <h3>Jasan plan i briga i posle.</h3>
+          <p>Dobijate pošten plan terapije unapred i ostajemo vam na raspolaganju i nakon tretmana. Vraćate se istom timu koji vas poznaje — bez traženja novog rešenja.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES · stomatologija ============ -->
+<section class="services sd-paper" id="usluge" aria-label="Stomatologija i parodontologija">
+  <div class="services-inner">
+    <div class="services-head" data-reveal>
+      <span class="eyebrow eyebrow--ink">Vertikala 01 · Stomatologija</span>
+      <h2 class="section-title">Parodontologija i stomatologija, <em>na jednom mestu.</em></h2>
+    </div>
+    <div class="svc-grid" data-stagger>
+      <article class="svc-card" style="--d:0ms">
+        <span class="svc-num">( 01 )</span>
+        <span class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14c0-3 3-5 8-5s8 2 8 5"></path><path d="M6 14v2.5M10 14v3.5M14 14v3.5M18 14v2.5"></path><path d="M4 9c2-2 5-3 8-3s6 1 8 3"></path></svg></span>
+        <div class="svc-foot"><h3>Parodontologija</h3><p>Lečenje desni, parodontopatije i povlačenja gingive — temelj svakog zdravog i trajnog osmeha.</p></div>
+        <span class="svc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+      </article>
+      <article class="svc-card" style="--d:70ms">
+        <span class="svc-num">( 02 )</span>
+        <span class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2.5 0 4 1.6 4 4 0 1.8-.8 2.6-.8 4.4 0 2.3.9 3.4.9 6.1 0 1.6-.5 3.5-1.6 3.5-1 0-1.1-1.6-1.3-3.2-.2-1.4-.4-2.6-1.2-2.6s-1 1.2-1.2 2.6C10.3 19.4 10.2 21 9.2 21c-1.1 0-1.6-1.9-1.6-3.5 0-2.7.9-3.8.9-6.1C8.5 9.6 7.7 8.8 7.7 7c0-2.4 1.6-4 4.3-4z"></path></svg></span>
+        <div class="svc-foot"><h3>Opšta stomatologija</h3><p>Plombe, lečenje karijesa i redovne kontrole — očuvanje zuba pre nego što problem postane veći.</p></div>
+        <span class="svc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+      </article>
+      <article class="svc-card" style="--d:140ms">
+        <span class="svc-num">( 03 )</span>
+        <span class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.1 4.3 4.7.7-3.4 3.3.8 4.7-4.2-2.2-4.2 2.2.8-4.7L5 8l4.7-.7L12 3z"></path></svg></span>
+        <div class="svc-foot"><h3>Estetska stomatologija</h3><p>Izbeljivanje, estetske nadogradnje i dentalni nakit — osmeh koji izgleda prirodno i blista.</p></div>
+        <span class="svc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+      </article>
+      <article class="svc-card" style="--d:210ms">
+        <span class="svc-num">( 04 )</span>
+        <span class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c2.6 0 4.3 1.7 4.3 4.2 0 2-1 3-1.2 5.3-.2 2.9-.6 8.5-2 8.5-1.1 0-1-3.2-1.6-3.2S10.6 20 9.5 20c-1.4 0-1.8-5.6-2-8.5C7.3 9.2 6.3 8.2 6.3 6.2 6.3 3.7 8 2 10.6 2"></path><path d="M12 10v8"></path></svg></span>
+        <div class="svc-foot"><h3>Endodoncija</h3><p>Lečenje kanala korena uz preciznost — zub se spašava, a ne vadi, kad god je to moguće.</p></div>
+        <span class="svc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+      </article>
+      <article class="svc-card" style="--d:280ms">
+        <span class="svc-num">( 05 )</span>
+        <span class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v5a3 3 0 0 0 6 0V3"></path><path d="M12 11v7"></path><path d="M9 21h6"></path></svg></span>
+        <div class="svc-foot"><h3>Oralna hirurgija</h3><p>Vađenje, hirurške intervencije i priprema terena — sigurno, mirno i uz lokalnu anesteziju.</p></div>
+        <span class="svc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+      </article>
+      <article class="svc-card" style="--d:350ms">
+        <span class="svc-num">( 06 )</span>
+        <span class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="4"></circle><path d="M15 5a4 4 0 0 1 0 8"></path><path d="M3 20c0-2.8 2.7-4.5 6-4.5s6 1.7 6 4.5"></path><path d="M16.5 15.8c2.1.5 3.5 1.9 3.5 4.2"></path></svg></span>
+        <div class="svc-foot"><h3>Dečja stomatologija</h3><p>Prvi susret sa stomatologom bez straha — strpljivo, nežno i uz osmeh na kraju posete.</p></div>
+        <span class="svc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+      </article>
+    </div>
+    <p class="svc-note" data-reveal>Niste sigurni šta vam treba? Na pregledu dobijate jasnu dijagnozu i realan plan — bez obaveze.</p>
+  </div>
+</section>
+
+<!-- ============ ESTETSKA MEDICINA · vertikala 02 ============ -->
+<section class="aesthetic is-dark" id="estetika" aria-label="Estetska medicina">
+  <div class="aesthetic-inner">
+    <div class="aesthetic-head" data-reveal>
+      <span class="eyebrow">Vertikala 02 · Estetska medicina</span>
+      <h2 class="section-title">Negovan izgled lica, <em>prirodno i odmereno.</em></h2>
+      <p class="aesthetic-sub">Isti specijalistički pristup kao u stomatologiji — pažljiva procena, jasan plan i rezultat koji izgleda prirodno, nikad preterano.</p>
+    </div>
+
+    <div class="aesthetic-grid">
+      <div class="aest-cards">
+        <article class="aest-card" data-reveal data-reveal-delay="0">
+          <span class="aest-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v7"></path><circle cx="12" cy="13" r="5"></circle><path d="M9.5 12.5l1.7 1.7 3-3.2"></path></svg></span>
+          <h3>Botoks</h3>
+          <p>Ublažavanje mimičnih bora i prevencija novih — odmoren izraz lica, bez „zamrznutog" efekta.</p>
+        </article>
+        <article class="aest-card" data-reveal data-reveal-delay="60">
+          <span class="aest-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c4-3 7-6 7-10a7 7 0 0 0-14 0c0 4 3 7 7 10z"></path><circle cx="12" cy="11" r="2.4"></circle></svg></span>
+          <h3>Fileri</h3>
+          <p>Hijaluronski fileri za usne i konture lica — volumen i sklad koji prate vaše crte.</p>
+        </article>
+        <article class="aest-card" data-reveal data-reveal-delay="120">
+          <span class="aest-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg></span>
+          <h3>PRP tretman</h3>
+          <p>Plazma bogata trombocitima — prirodna regeneracija i osvežavanje kože sopstvenim resursima.</p>
+        </article>
+        <article class="aest-card" data-reveal data-reveal-delay="180">
+          <span class="aest-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"></path><circle cx="12" cy="12" r="2"></circle></svg></span>
+          <h3>Skinbooster</h3>
+          <p>Duboka hidratacija i blistavost kože — nežan, postupan efekat za zdrav i svež ten.</p>
+        </article>
+      </div>
+
+      <div class="aest-media">
+        <figure class="aest-photo aest-photo-a" data-reveal data-reveal-delay="60"><img src="assets/aesthetic-1.jpg" alt="Sertifikati i preparati za estetsku medicinu" loading="lazy"><span class="aest-tag">Sertifikovan pristup</span></figure>
+        <figure class="aest-photo aest-photo-b" data-reveal data-reveal-delay="140"><img src="assets/aesthetic-2.jpg" alt="Estetski tretman u toku" loading="lazy"><span class="aest-tag">Tretman</span></figure>
+      </div>
+    </div>
+
+    <div class="aesthetic-cta" data-reveal>
+      <a class="btn btn--lila" href="#kontakt"><span>Zakažite estetsku konsultaciju</span><span class="btn-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTS (before / after) ============ -->
+<section class="results" id="rezultati" aria-label="Rezultati pre i posle">
+  <div class="results-inner">
+    <div class="results-head" data-reveal>
+      <span class="eyebrow eyebrow--ink">Rezultati · pre i posle</span>
+      <h2 class="section-title">Osmesi koji govore <em>umesto nas.</em></h2>
+      <p class="results-sub">Stvarni rezultati iz ordinacije — iz stomatologije i estetske medicine. Gornja slika je „pre", donja „posle".</p>
+    </div>
+    <div class="results-bento">
+      <figure class="res-tile res-feature" data-reveal data-reveal-delay="0"><img src="assets/results/r1.jpg" alt="Rezultat pre i posle — osmeh" loading="lazy"><figcaption>Pre · Posle</figcaption></figure>
+      <figure class="res-tile" data-reveal data-reveal-delay="60"><img src="assets/results/r2.jpg" alt="Rezultat pre i posle — fileri za usne" loading="lazy"><figcaption>Pre · Posle</figcaption></figure>
+      <figure class="res-tile" data-reveal data-reveal-delay="120"><img src="assets/results/r3.jpg" alt="Rezultat pre i posle — fileri za usne" loading="lazy"><figcaption>Pre · Posle</figcaption></figure>
+      <figure class="res-tile" data-reveal data-reveal-delay="60"><img src="assets/results/r4.jpg" alt="Rezultat pre i posle — osmeh" loading="lazy"><figcaption>Pre · Posle</figcaption></figure>
+      <figure class="res-tile" data-reveal data-reveal-delay="120"><img src="assets/results/r5.jpg" alt="Rezultat pre i posle — plombe" loading="lazy"><figcaption>Pre · Posle</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process sd-paper" aria-label="Kako teče terapija">
+  <div class="process-inner">
+    <div class="process-head" data-reveal>
+      <span class="eyebrow eyebrow--ink">Kako teče terapija</span>
+      <h2 class="section-title">Jasan put — od pregleda do <em>rezultata.</em></h2>
+    </div>
+    <div class="timeline" data-timeline>
+      <span class="tl-line" aria-hidden="true"></span>
+      <span class="tl-fill" data-tl-fill aria-hidden="true"></span>
+      <div class="tl-items">
+        <article class="tl-item even">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div class="tl-spacer" aria-hidden="true"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Korak 01</span>
+            <h3>Pregled</h3>
+            <p>Pregled i dijagnostika vašeg trenutnog stanja — zuba, desni ili kože lica.</p>
+          </div>
+        </article>
+        <article class="tl-item">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div class="tl-spacer" aria-hidden="true"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Korak 02</span>
+            <h3>Vaš plan</h3>
+            <p>Pošten plan terapije, jasno objašnjen i bez skrivenih koraka.</p>
+          </div>
+        </article>
+        <article class="tl-item even">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div class="tl-spacer" aria-hidden="true"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Korak 03</span>
+            <h3>Terapija</h3>
+            <p>Sprovodimo terapiju mirno i precizno, uz maksimalnu udobnost.</p>
+          </div>
+        </article>
+        <article class="tl-item">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div class="tl-spacer" aria-hidden="true"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Korak 04</span>
+            <h3>Rezultat</h3>
+            <p>Konačan rezultat i kontrola — osmeh i izgled napravljeni da traju.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECHNOLOGY / PRISTUP ============ -->
+<section class="tech" aria-label="Pristup i preciznost">
+  <div class="tech-inner">
+    <div class="tech-content" data-reveal>
+      <span class="eyebrow eyebrow--ink">Pristup i preciznost</span>
+      <h2 class="section-title">Preciznost koja smanjuje <em>rizik.</em></h2>
+      <p class="tech-lead">Svaki slučaj vodimo pažljivo:</p>
+      <ul class="tech-caps">
+        <li><span class="cap-idx">01</span>Temeljna dijagnostika pre svake terapije</li>
+        <li><span class="cap-idx">02</span>Individualni plan za svakog pacijenta</li>
+        <li><span class="cap-idx">03</span>Rad uz lokalnu anesteziju i udobnost</li>
+        <li><span class="cap-idx">04</span>Kontrole i briga i posle tretmana</li>
+      </ul>
+      <p class="tech-benefit">Terapija ide tačno onako kako je isplanirana, a ne improvizovano. Manje neprijatnosti, brži oporavak i rezultat koji se može predvideti.</p>
+    </div>
+    <div class="tech-media">
+      <figure class="tech-photo tech-photo-a" data-reveal data-reveal-delay="60"><img src="assets/tech-1.jpg" alt="Savremena ordinacija u radu" loading="lazy"><span class="tech-tag">Ordinacija</span></figure>
+      <figure class="tech-photo tech-photo-b" data-reveal data-reveal-delay="140"><img src="assets/tech-2.jpg" alt="Precizan rad tokom intervencije" loading="lazy"><span class="tech-tag">Preciznost</span></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY · interactive bento ============ -->
+<section class="gallery sd-paper" id="galerija" aria-label="Naša ordinacija">
+  <div class="gallery-inner">
+    <div class="gallery-head" data-reveal>
+      <div>
+        <span class="eyebrow eyebrow--ink">Galerija</span>
+        <h2 class="section-title">Pogled unutar <em>ordinacije.</em></h2>
+        <p class="gallery-intro">Prostor, oprema i ljudi koji stoje iza svakog rezultata. Kliknite na sliku za uvećanje.</p>
+      </div>
+    </div>
+    <div class="bento-grid" data-bento>
+      <figure class="bento-tile b-wide" style="--d:0" data-full="assets/gallery/g2.jpg" data-title="Savremena ordinacija" data-desc="Prostor u kojem se radi mirno i precizno">
+        <img src="assets/gallery/g2.jpg" alt="Savremena ordinacija u radu" loading="lazy">
+        <figcaption class="bento-cap"><h3>Savremena ordinacija</h3><p>Prostor u kojem se radi mirno i precizno</p></figcaption>
+      </figure>
+      <figure class="bento-tile" style="--d:60" data-full="assets/gallery/g3.jpg" data-title="dr Nada Bojić" data-desc="Specijalista koji vas prati od pregleda">
+        <img src="assets/gallery/g3.jpg" alt="dr Nada Bojić u ordinaciji" loading="lazy">
+        <figcaption class="bento-cap"><h3>dr Nada Bojić</h3><p>Specijalista koji vas prati od pregleda</p></figcaption>
+      </figure>
+      <figure class="bento-tile" style="--d:120" data-full="assets/gallery/g1.jpg" data-title="Topla atmosfera" data-desc="Prijatan prostor i mali detalji">
+        <img src="assets/gallery/g1.jpg" alt="Topla atmosfera ordinacije" loading="lazy">
+        <figcaption class="bento-cap"><h3>Topla atmosfera</h3><p>Prijatan prostor i mali detalji</p></figcaption>
+      </figure>
+      <figure class="bento-tile b-wide" style="--d:120" data-full="assets/gallery/g4.jpg" data-title="Dečja stomatologija" data-desc="Prvi susret bez straha">
+        <img src="assets/gallery/g4.jpg" alt="Dečja stomatologija — nasmejano dete" loading="lazy">
+        <figcaption class="bento-cap"><h3>Dečja stomatologija</h3><p>Prvi susret bez straha</p></figcaption>
+      </figure>
+      <figure class="bento-tile" style="--d:180" data-full="assets/gallery/g5.jpg" data-title="Posvećen rad" data-desc="Fokus na svaki detalj terapije">
+        <img src="assets/gallery/g5.jpg" alt="Posvećen rad tokom terapije" loading="lazy">
+        <figcaption class="bento-cap"><h3>Posvećen rad</h3><p>Fokus na svaki detalj terapije</p></figcaption>
+      </figure>
+      <figure class="bento-tile" style="--d:240" data-full="assets/gallery/g6.jpg" data-title="Izbeljivanje" data-desc="Estetska stomatologija i nega">
+        <img src="assets/gallery/g6.jpg" alt="Set za izbeljivanje zuba" loading="lazy">
+        <figcaption class="bento-cap"><h3>Izbeljivanje</h3><p>Estetska stomatologija i nega</p></figcaption>
+      </figure>
+      <figure class="bento-tile b-wide" style="--d:240" data-full="assets/gallery/g7.jpg" data-title="Stalno usavršavanje" data-desc="Edukacije i nove tehnike">
+        <img src="assets/gallery/g7.jpg" alt="Dr Nada Bojić na edukaciji" loading="lazy">
+        <figcaption class="bento-cap"><h3>Stalno usavršavanje</h3><p>Edukacije i nove tehnike</p></figcaption>
+      </figure>
+      <figure class="bento-tile b-wide" style="--d:300" data-full="assets/gallery/g8.jpg" data-title="U radu" data-desc="Svetla, čista i opremljena ordinacija">
+        <img src="assets/gallery/g8.jpg" alt="Ordinacija tokom intervencije" loading="lazy">
+        <figcaption class="bento-cap"><h3>U radu</h3><p>Svetla, čista i opremljena ordinacija</p></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Uvećana slika">
+    <div class="lb-backdrop" data-lb-close></div>
+    <div class="lb-stage">
+      <button class="lb-close" aria-label="Zatvori" data-lb-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <figure class="lb-figure">
+        <img class="lb-img" src="" alt="">
+        <figcaption class="lb-cap"><h3 class="lb-title"></h3><p class="lb-desc"></p></figcaption>
+      </figure>
+    </div>
+    <div class="lb-dock" data-lb-dock aria-label="Pregled slika"></div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="reviews is-dark" id="utisci" aria-label="Utisci pacijenata">
+  <div class="reviews-inner">
+    <div class="reviews-head" data-reveal>
+      <div class="reviews-head-text">
+        <span class="eyebrow">Utisci pacijenata</span>
+        <h2 class="section-title">Pacijenti koji su <em>pronašli svog stomatologa.</em></h2>
+        <p class="reviews-sub">Utisci koji najbolje opisuju način na koji radimo — mirno, iskreno i posvećeno svakom pacijentu.</p>
+      </div>
+      <div class="reviews-rating">
+        <span class="rr-num">5.0</span>
+        <span class="rr-stars">★★★★★</span>
+        <span class="rr-src">Utisci pacijenata</span>
+      </div>
+    </div>
+    <div class="marquee" data-marquee>
+     <div class="mq-track">
+      <div class="mq-group">
+      <article class="rv-card">
+        <span class="rv-mark">“</span>
+        <p class="rv-quote">Prvi put da mi ne krvare desni posle pranja. Spasli ste me — konačno znam da je sve pod kontrolom.</p>
+        <div class="rv-foot"><span class="rv-stars">★★★★★</span><span class="rv-src">Pacijentkinja</span></div>
+        <div class="rv-who"><span class="rv-av">M</span><span class="rv-who-t"><span class="rv-name">Marija P.</span><span class="rv-meta">parodontologija</span></span></div>
+      </article>
+      <article class="rv-card">
+        <span class="rv-mark">“</span>
+        <p class="rv-quote">Sve je objašnjeno u detalje, bez žurbe i bez pritiska. Prvi put da odlazim kod stomatologa bez trunke straha.</p>
+        <div class="rv-foot"><span class="rv-stars">★★★★★</span><span class="rv-src">Pacijent</span></div>
+        <div class="rv-who"><span class="rv-av">N</span><span class="rv-who-t"><span class="rv-name">Nikola Đ.</span><span class="rv-meta">opšta stomatologija</span></span></div>
+      </article>
+      <article class="rv-card">
+        <span class="rv-mark">“</span>
+        <p class="rv-quote">Fileri za usne izgledaju potpuno prirodno — tačno onako kako sam želela, nimalo preterano. Najtopliji pristup.</p>
+        <div class="rv-foot"><span class="rv-stars">★★★★★</span><span class="rv-src">Pacijentkinja</span></div>
+        <div class="rv-who"><span class="rv-av">J</span><span class="rv-who-t"><span class="rv-name">Jelena S.</span><span class="rv-meta">estetska medicina</span></span></div>
+      </article>
+      <article class="rv-card">
+        <span class="rv-mark">“</span>
+        <p class="rv-quote">Godinama sam odlagao stomatologa. Ovde su bili strpljivi i smireni, i sada žalim samo što nisam došao ranije.</p>
+        <div class="rv-foot"><span class="rv-stars">★★★★★</span><span class="rv-src">Pacijent</span></div>
+        <div class="rv-who"><span class="rv-av">D</span><span class="rv-who-t"><span class="rv-name">Dejan M.</span><span class="rv-meta">oralna hirurgija</span></span></div>
+      </article>
+      <article class="rv-card">
+        <span class="rv-mark">“</span>
+        <p class="rv-quote">Dobila sam jasan plan terapije i sve je išlo tačno kako je rečeno. Moje dete više ne beži od stomatologa.</p>
+        <div class="rv-foot"><span class="rv-stars">★★★★★</span><span class="rv-src">Pacijentkinja</span></div>
+        <div class="rv-who"><span class="rv-av">A</span><span class="rv-who-t"><span class="rv-name">Ana T.</span><span class="rv-meta">dečja stomatologija</span></span></div>
+      </article>
+      <article class="rv-card">
+        <span class="rv-mark">“</span>
+        <p class="rv-quote">Stručno, ljubazno i bez iznenađenja. Desni su mi se potpuno smirile, a osmeh izgleda zdravije nego ikad.</p>
+        <div class="rv-foot"><span class="rv-stars">★★★★★</span><span class="rv-src">Pacijent</span></div>
+        <div class="rv-who"><span class="rv-av">S</span><span class="rv-who-t"><span class="rv-name">Stefan V.</span><span class="rv-meta">parodontologija</span></span></div>
+      </article>
+      </div>
+     </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="team" id="tim" aria-label="Dr Nada Bojić">
+  <div class="team-inner">
+    <figure class="team-photo" data-reveal>
+      <img src="assets/team.jpg" alt="dr Nada Bojić — Hope Dental" loading="lazy">
+    </figure>
+    <div class="team-body" data-reveal data-reveal-delay="80">
+      <span class="eyebrow eyebrow--ink">Upoznajte se</span>
+      <h2 class="section-title">Dr Nada Bojić, <em>osoba iza osmeha.</em></h2>
+      <p class="team-lead">Specijalista parodontologije i oralne medicine koja vaš slučaj vodi od prvog pregleda do konačnog rezultata — posvećeno, strpljivo i bez žurbe, u obe vertikale: stomatologiji i estetskoj medicini.</p>
+      <dl class="team-creds">
+        <div><dt>Specijalnost</dt><dd>Parodontologija i oralna medicina</dd></div>
+        <div><dt>Estetska medicina</dt><dd>Botoks · Fileri · PRP</dd></div>
+        <div><dt>Pristup</dt><dd>Jasan plan, bez pritiska</dd></div>
+        <div><dt>Lokacija</dt><dd>Voždovac, Beograd</dd></div>
+      </dl>
+      <div class="team-stats">
+        <div class="stat"><span class="stat-num" data-count="2" data-plain="1">0</span><span class="stat-label">jake vertikale pod jednim krovom</span></div>
+        <div class="stat"><span class="stat-num" data-count="100" data-suffix="+">0</span><span class="stat-label">objavljenih rezultata</span></div>
+        <div class="stat"><span class="stat-num" data-count="1000" data-suffix="+">0</span><span class="stat-label">pratilaca zajednice</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq sd-paper" id="faq" aria-label="Česta pitanja">
+  <div class="faq-inner">
+    <div class="faq-aside" data-reveal>
+      <span class="eyebrow eyebrow--ink">FAQ</span>
+      <h2 class="section-title">Česta pitanja.</h2>
+      <p class="faq-aside-sub">Niste sigurni oko nečega? Najbrži odgovor je pregled — iskren pogled na vaš slučaj, bez obaveze.</p>
+      <a class="btn btn--dark" href="#kontakt"><span>Zakažite pregled</span><span class="btn-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></a>
+    </div>
+    <div class="faq-list" data-reveal data-reveal-delay="80">
+      <div class="faq-item is-open">
+        <h3 class="faq-q"><button type="button" class="faq-q-btn" aria-expanded="true"><span>Da li desni mogu da se izleče?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-ans"><div class="faq-ans-clip"><p>U većini slučajeva — da. Parodontopatija se ne leči preko noći, ali uz pravilnu terapiju i održavanje upala se smiruje, a dalje povlačenje desni zaustavlja. Prvi korak je pregled i jasna dijagnoza.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-q-btn" aria-expanded="false"><span>Da li boli?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-ans"><div class="faq-ans-clip"><p>Tretmani se rade uz lokalnu anesteziju i maksimalnu pažnju da budete opušteni. Kod nas dolaze i pacijenti koji su godinama izbegavali stomatologa — radi se mirno i bez pritiska.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-q-btn" aria-expanded="false"><span>Radite li i stomatologiju i estetsku medicinu?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-ans"><div class="faq-ans-clip"><p>Da — to su dve vertikale ordinacije. Stomatologija i parodontologija s jedne strane, estetska medicina (botoks, fileri, PRP, skinbooster) s druge. Oboje planiramo sa istim pažljivim pristupom.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-q-btn" aria-expanded="false"><span>Izgledaju li fileri prirodno?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-ans"><div class="faq-ans-clip"><p>Cilj je uvek sklad, a ne preterivanje. Na konsultaciji zajedno definišemo šta želite, a tretman radimo odmereno — da rezultat prati vaše crte lica i izgleda prirodno.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-q-btn" aria-expanded="false"><span>Koliko traje terapija?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-ans"><div class="faq-ans-clip"><p>Zavisi od slučaja — neke intervencije se završe u jednoj poseti, a složenije terapije planiramo u fazama. Realan plan i okvir dobijate već na prvom pregledu.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" class="faq-q-btn" aria-expanded="false"><span>Gde se nalazite i kako da zakažem?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-ans"><div class="faq-ans-clip"><p>Na Voždovcu smo, Bože Jankovića 27, Beograd. Najbrže je da zakažete preko forme ispod ili porukom na Instagram @dmd.nadabojic — javljamo vam se u najkraćem roku.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FORM ============ -->
+<section class="cta" id="kontakt" aria-label="Zakažite pregled">
+  <div class="cta-glow" aria-hidden="true"></div>
+  <div class="cta-inner">
+    <span class="eyebrow" data-reveal>Vaš sledeći korak</span>
+    <h2 class="section-title cta-title" data-reveal>Zdravije desni i lepši osmeh, <em>počinju pregledom.</em></h2>
+    <p class="cta-sub" data-reveal>Ostavite kontakt i šta vas zanima — javljamo vam se i dogovaramo termin. Bez pritiska i bez obaveze.</p>
+
+    <div class="cta-card" data-reveal>
+      <form class="cta-form" id="booking" novalidate>
+        <div class="field">
+          <label for="f-name">Ime i prezime</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Vaše ime" required>
+        </div>
+        <div class="field">
+          <label for="f-phone">Telefon</label>
+          <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="06x xxx xxxx" required>
+        </div>
+        <div class="field field--full">
+          <label for="f-service">Šta vas zanima?</label>
+          <select id="f-service" name="service">
+            <option value="">Izaberite uslugu…</option>
+            <option>Pregled i konsultacija</option>
+            <option>Parodontologija (desni)</option>
+            <option>Opšta stomatologija</option>
+            <option>Estetska stomatologija / izbeljivanje</option>
+            <option>Estetska medicina (botoks, fileri, PRP)</option>
+            <option>Nešto drugo</option>
+          </select>
+        </div>
+        <div class="field field--full">
+          <label for="f-msg">Poruka <span class="opt">(opciono)</span></label>
+          <textarea id="f-msg" name="message" rows="3" placeholder="Ukratko opišite šta vas muči…"></textarea>
+        </div>
+        <button class="btn btn--lila btn--block" type="submit">
+          <span>Pošaljite zahtev</span>
+          <span class="btn-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+        </button>
+        <p class="cta-formnote" id="formnote" aria-live="polite">Javljamo vam se u najkraćem mogućem roku.</p>
+      </form>
+
+      <div class="cta-side">
+        <div class="cta-side-row">
+          <span class="cta-side-k">Instagram</span>
+          <a class="cta-side-big" href="https://instagram.com/dmd.nadabojic" target="_blank" rel="noopener">@dmd.nadabojic</a>
+        </div>
+        <div class="cta-side-row">
+          <span class="cta-side-k">Ordinacija</span>
+          <p class="cta-side-addr">Bože Jankovića 27<br>Voždovac, Beograd</p>
+        </div>
+        <div class="cta-side-row">
+          <span class="cta-side-k">Radno vreme</span>
+          <dl class="cta-hours">
+            <div><dt>Pon–Pet</dt><dd>po dogovoru</dd></div>
+            <div><dt>Subota</dt><dd>po dogovoru</dd></div>
+            <div><dt>Nedelja</dt><dd>Zatvoreno</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section class="loc" aria-label="Lokacija">
+  <div class="loc-inner">
+    <div class="loc-head" data-reveal>
+      <span class="eyebrow eyebrow--ink">Gde se nalazimo</span>
+      <h2 class="section-title">U srcu <em>Voždovca.</em></h2>
+      <p class="loc-text">Bože Jankovića 27 — lako dostupno, u blizini Autokomande.</p>
+    </div>
+    <div class="loc-map" data-reveal data-reveal-delay="80">
+      <iframe title="Mapa — Hope Dental, Bože Jankovića 27, Beograd" src="https://www.google.com/maps?q=Bo%C5%BEe%20Jankovi%C4%87a%2027%2C%20Beograd&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" aria-label="Podnožje sajta">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand brand--footer">
+          <svg class="brand-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c-3.3 0-4.8 2-4.8 4.5 0 1.7.7 2.6.7 4.4 0 2.6-.5 8.1-1.9 8.1-1 0-1-3.1-1.6-4.9-.3-1-.6-1.5-1-1.5"></path><path d="M12 2.5c3.3 0 4.8 2 4.8 4.5 0 1.7-.7 2.6-.7 4.4 0 2.6.5 8.1 1.9 8.1 1 0 1-3.1 1.6-4.9.3-1 .6-1.5 1-1.5"></path></svg>
+          <span class="brand-tx">Hope<em>Dental</em></span>
+        </span>
+        <span class="footer-desc">Parodontologija i estetska medicina · Voždovac, Beograd</span>
+      </div>
+      <nav class="footer-col" aria-label="Sadržaj">
+        <span class="footer-h">Sadržaj</span>
+        <ul>
+          <li><a href="#usluge">Stomatologija</a></li>
+          <li><a href="#estetika">Estetska medicina</a></li>
+          <li><a href="#rezultati">Rezultati</a></li>
+          <li><a href="#galerija">Ordinacija</a></li>
+          <li><a href="#faq">Pitanja</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col">
+        <span class="footer-h">Poseta</span>
+        <address class="footer-addr">
+          <span>Bože Jankovića 27</span>
+          <span>Voždovac, Beograd</span>
+        </address>
+        <div class="footer-hours">
+          <span>Termini po dogovoru</span>
+          <span>Nedelja: zatvoreno</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <span class="footer-h">Kontakt</span>
+        <a class="footer-phone" href="https://instagram.com/dmd.nadabojic" target="_blank" rel="noopener">@dmd.nadabojic</a>
+        <ul>
+          <li><a href="https://instagram.com/dmd.nadabojic" target="_blank" rel="noopener">Instagram poruka</a></li>
+          <li><a href="#kontakt">Forma za zakazivanje</a></li>
+        </ul>
+        <a class="btn btn--lila btn--sm footer-cta" href="#kontakt"><span>Zakažite pregled</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Hope Dental — dr Nada Bojić. Sva prava zadržana.</span>
+      <span class="footer-demo">Demo sajt · predlog redizajna</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

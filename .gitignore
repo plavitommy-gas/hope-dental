@@ -1,0 +1,8 @@
+# Raw Instagram photo dump (not needed for the site — assets/ holds the used copies)
+images/reference/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
